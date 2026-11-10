@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "tradition": "Notação própria, em dívida com a lógica triádica de Peirce e com a ideia de Earthscore (Ryan): signos que se treinam, não ícones de vitória.",
+  "symbols": [
+    {
+      "id": "flow",
+      "name": "Espiral de cisalhamento",
+      "reads": "Como o gesto e o campo se enrolam sem precisarem coincidir."
+    },
+    {
+      "id": "tension",
+      "name": "Linha portante",
+      "reads": "Esforço que segura a forma sem travá-la. Homeodinâmica não é nó desfeito."
+    },
+    {
+      "id": "mediation",
+      "name": "Tríade oca",
+      "reads": "O terceiro que atrasa, traduz e devolve. O ponteiro não toca o campo."
+    }
+  ]
+}

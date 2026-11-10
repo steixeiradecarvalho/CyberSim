@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "CyberSimpatia",
+      "hasCanvas": false,
+      "bodyTextLen": 535,
+      "bodyTextHash": "1b89b99fcc87be08b901df64831d5bc4c56d71e80a41387b468e6020e4b5af1d",
+      "bodyTextPrefix": "LÓGICA TRIÁDICA ESCUTA 2.0 AÇÃO · MEDIAÇÃO · RESSONÂNCIA CyberSi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "CyberSimpatia",
+      "hasCanvas": false,
+      "bodyTextLen": 535,
+      "bodyTextHash": "1b89b99fcc87be08b901df64831d5bc4c56d71e80a41387b468e6020e4b5af1d",
+      "bodyTextPrefix": "LÓGICA TRIÁDICA ESCUTA 2.0 AÇÃO · MEDIAÇÃO · RESSONÂNCIA CyberSi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
