@@ -25,6 +25,7 @@ export function CyberSimpatia() {
   const [view, setView] = useState<"gate" | "hub" | "circuit">("gate");
   const [module, setModule] = useState<ModuleId>("laminar_vortex");
   const [hud, setHud] = useState<HudModel | null>(null);
+  const [lens, setLens] = useState<LensId>("flow");
   const [heard, setHeard] = useState(false);
 
   useEffect(() => {
@@ -242,9 +243,13 @@ function Gate({ onEnter }: { onEnter: () => void }) {
         <div className="flex flex-col gap-4">
           <p className="text-xs tracking-widest text-flow uppercase">Ação · mediação · ressonância</p>
           <h1 className="font-serif text-5xl leading-none font-medium tracking-tight sm:text-6xl">CyberSimpatia</h1>
+          <p className="max-w-xl text-base leading-relaxed text-bone">
+            Um instrumento de escuta. Não um jogo. Três circuitos já se movem quando você chega — vórtice, rizoma, nó — e um
+            observador que só lê.
+          </p>
           <p className="max-w-xl text-base leading-relaxed text-mute">
-            Você não vence um circuito. Sintoniza com ele. O gesto entra filtrado, um mediador traduz, o campo responde — e o
-            instrumento mostra como está lendo você.
+            Você age. Um mediador filtra, atrasa, gira ou recusa. O campo responde em fase, nunca como cópia. Não há vitória: o
+            uso é ver, separados, o gesto, o filtro e o terceiro. Os números descrevem essa relação. Não a julgam.
           </p>
         </div>
         <ol className="grid gap-3 sm:grid-cols-3">
